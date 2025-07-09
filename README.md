@@ -1,4 +1,5 @@
 # garbage-classification
+
 garbage_yolov8/
 ├── data/
 │   ├── raw/                      # Dữ liệu ảnh gốc từ Kaggle
@@ -24,3 +25,4 @@ garbage_yolov8/
 │
 ├── dataset.yaml                 # Cấu hình dataset cho YOLO
 └── README.md   
+
