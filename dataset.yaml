@@ -1,5 +1,5 @@
 train: data/images/train
 val: data/images/val
 
-nc: 6
-names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+nc: 12
+names: ['battery', 'biological','brown-glass', 'cardboard', 'clothes', 'green-glass', 'metal', 'paper', 'plastic', 'shoes', 'trash', 'white-glass']

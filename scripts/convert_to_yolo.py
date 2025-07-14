@@ -3,7 +3,7 @@ import cv2
 import shutil
 from sklearn.model_selection import train_test_split
 
-CLASSES = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+CLASSES = ['battery', 'biological','brown-glass', 'cardboard', 'clothes', 'green-glass', 'metal', 'paper', 'plastic', 'shoes', 'trash', 'white-glass']
 label_map = {name: i for i, name in enumerate(CLASSES)}
 
 src_dir = 'data/raw'
